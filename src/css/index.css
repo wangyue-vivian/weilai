@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 首页的样式*/
+/*头部*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+header {
+  height: 100px;
+  background: pink;
+}
+header .headbx {
+  width: 1220px;
+  height: 100px;
+  margin: 0 auto;
+  background: #ccc;
+}
+header .headbx h1 {
+  width: 180px;
+  height: 100px;
+  padding-left: 20px;
+  font-size: 30px;
+  color: deeppink;
+  line-height: 100px;
+  float: left;
+}
+header .headbx ul {
+  float: right;
+  height: 100px;
+}
+header .headbx ul li {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  color: slategrey;
+  padding: 0 10px;
+}
+
+/*# sourceMappingURL=index.css.map */

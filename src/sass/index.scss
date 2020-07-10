@@ -1,0 +1,59 @@
+/* 首页的样式*/
+/*头部*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+header{
+    height: 100px;
+    background: pink;
+    .headbx{
+        width: 1220px;
+        height: 100px;
+        margin: 0 auto;
+        background: #ccc;
+        h1{
+            width: 180px;
+            height: 100px;
+            padding-left: 20px;
+            font-size: 30px;
+            color: deeppink;
+            line-height: 100px;
+            float: left;
+        }
+        ul{
+            float: right;
+            height: 100px;
+            li{
+                float: left;
+            
+                height: 100px;
+                line-height: 100px;
+                color: slategrey;
+                padding: 0 10px;
+            }
+        }
+    }
+}
+nav{
+    height: 80px;
+    background-color: firebrick;
+    .navbx{
+        width: 1220px;
+        height: 80px;
+        margin: 0 auto;
+        ul{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                flex: 1;
+                
+            }
+        }
+    }
+
+}
