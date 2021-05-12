@@ -4,7 +4,7 @@
   "description": "...",
   "main": ".../",
   "dependencies": {
-    "swiper": "^6.0.0"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
